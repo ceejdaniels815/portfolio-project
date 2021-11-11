@@ -1,0 +1,13 @@
+table {
+    Border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid orchid;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+thead {
+    Background-color: orchid;
+}

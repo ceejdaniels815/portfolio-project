@@ -1,0 +1,27 @@
+body {
+  background-color: orchid;
+  margin: 0;
+  font-family: 'Balerno', serif;
+  padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Balerno', serif;
+}
+
+.new-class {
+  color: orchid;
+}
+
+.center-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 75px;
+  width: 500px;
+}
+
+.logo img {
+  width: 160px;
+  height: 200px;
+  border-radius: 85px;
+}
