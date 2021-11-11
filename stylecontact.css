@@ -1,13 +1,21 @@
-table {
-    Border-collapse: collapse;
-}
-
-td, th {
-    border: 1px solid orchid;
-    padding: 0.5rem;
-    text-align: left;
-}
-
-thead {
-    Background-color: orchid;
-}
+body {
+    background-color: orchid;
+    margin: 0;
+    font-family: 'Balerno', serif;
+    padding: 15px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Balerno', serif;
+  }
+  
+  .new-class {
+    color: orchid;
+  }
+  
+  .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 75px;
+    width: 500px;
+  }
